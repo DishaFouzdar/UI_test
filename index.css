@@ -1,0 +1,380 @@
+
+  #header{
+    margin:auto;
+    width: auto;
+    height:60px;
+    z-index: 4001;
+    background-color:lightblue;
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .full_winter_kit { background-image: url(/img/img.jpg);
+      background-size: cover;}
+  }
+  @media only screen and (min-width: 992px) {
+    .full_winter_kit { background-image: url(/img/img@2x.jpg  );
+      background-size: cover;}
+    }
+      @media only screen and (min-width: 1200px) {
+        .full_winter_kit { background-image: url(/img/img@3x.jpg);
+          background-size: cover;}
+        }
+  .preview_header{
+    font-size: 12px;
+    height: 54px;
+  border-bottom: 1px  lightgrey;
+    z-index: -2;
+    line-height: 54px;
+    margin-bottom: 1px;
+    margin-left: 30px;
+    padding: 10px;
+  }
+/* .sh-nav-container{
+  transition: all 0.3s ease-in-out;
+
+} */
+
+  .facebook {
+    width: 6px;
+    height: 11px;
+    padding: 10px;
+    object-fit: contain;
+    float: right;
+  }
+  .instegram {
+    width: 11px;
+    height: 11px;
+    object-fit: contain;
+    padding: 10px;
+    float: right;
+  }
+ 
+
+  .twitter {
+    width: 14px;
+    height: 11px;
+    object-fit: contain;
+    padding: 10px;
+    float: right;
+  }
+  .google- {
+    width: 14px;
+    height: 11px;
+    object-fit: contain;
+    float: right;
+    padding: 10px;
+  }
+h2{
+    display: inline;
+
+}
+.Logo {
+    width: auto;
+    margin:auto;
+    height: auto;
+    float:left;
+    object-fit: contain;
+  }
+  
+nav li {
+    list-style: none;
+    position: inherit;
+    margin: auto;
+    
+    display: inline-block;  
+width : auto;
+    border-bottom: 1px solid transparent;
+}
+
+nav a {
+	color:#565656;
+    display: block;
+    font-family: Ubuntu;
+	font-size:16px;
+	
+	padding:10px 10px 8px;
+	text-transform:uppercase;
+	font-weight: bold;
+	letter-spacing: normal;
+    
+    text-decoration:none;
+    
+}
+  nav ul{
+    list-style: none;
+    margin: 0;
+    float: left;
+    padding: 10px;
+}
+
+
+  .Mail {
+    width: 91px;
+    height: 13px;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #34404b;
+  }
+  footer a { font-size: 14px; 
+    text-decoration:none;
+color: black;
+
+}
+  footer{
+     padding: 40px;
+        background: #fff;
+        clear: both;
+        width: 1538px;
+        height: 250px;
+        background-color: #ffffff;
+  }
+  .Payment-Methods {
+    font-size: 16px;
+    font-weight: 500px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    color: #ff5912;
+  }
+  .col { 
+    margin:auto;
+    padding: 40px;
+	float: left;
+	width: auto;
+	text-decoration:none;
+}
+
+section 
+{
+  width: 100%;
+ 
+  border-radius: 5px;
+  margin:auto;
+  padding: 40px;
+}
+.image{
+float: right;
+height:300px;
+width:500px;
+
+}
+/* .clearfix {
+  overflow: auto;
+
+} */
+  
+
+p{
+  color: orangered;
+}
+
+    .full_winter_kit{
+        width: 100%;
+        height:100%;
+        object-fit: contain;
+        font-weight: bold;
+        background-color:lightgray;
+        background-repeat: repeat;
+        background-image: url(/img/img.jpg);
+background-size: cover;
+  text-align: left;
+  position: relative;
+  z-index: -2;
+  
+  
+    }
+    .Cart-Ico {
+        width: 24px;
+        height: 17px;
+        object-fit: contain;
+        background-color: #ff5912;
+      }
+
+      .button{
+          
+          border-radius: 25px;
+          width: 140px;
+          height: 55px;
+          background-color: #fc4111;
+          color: white;
+          font-size: 16px;
+           justify-content: center
+      }
+
+      .logoS{
+          text-align: center;
+          font-size:24px;
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          
+            font-weight: bold;
+      }
+      .logoS:before {
+        color: red;
+        content: "New ";
+       
+      }
+      .logoSales{
+        font-weight: bold;
+        font-size:24px;
+      }
+
+
+      .logoSales:before {
+        color: red;
+        content: "BEST ";
+       
+      }
+
+      .search{
+        border-radius: 25px;
+        width: 400px;
+        margin: 20px;
+        font-size: 16px;
+        justify-content: center;
+  height: 55px;
+  border: solid 1px rgba(137, 137, 137, 0.42);
+  background-color: #ffffff;
+    }
+   
+    .column {
+        float: left; 
+       padding: 0 10px;
+       
+       width:20%
+      }
+      
+      /* Remove extra left and right margins, due to padding */
+      /* .row {margin: 0 -5px;}
+       */
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive columns */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+      
+      /* Style the counter cards */
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        background-color:white;
+        margin : auto;
+        padding-bottom: 10px;
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+      }
+      .Red {
+        width: 14px;
+        height: 13px;
+        background-color: #e12e3f;
+        border-radius: 50%;
+  display: inline-block;
+      }
+
+      .Black {
+        width: 14px;
+        height: 13px;
+        background-color:black;
+        border-radius: 50%;
+  display: inline-block;
+      }
+      .blue {
+        width: 14px;
+        height: 13px;
+        background-color:blue;
+        border-radius: 50%;
+  display: inline-block;
+      }
+      .green {
+        width: 14px;
+        height: 13px;
+        background-color:green;
+        border-radius: 50%;
+  display: inline-block;
+      }
+
+      .Like-Ico {
+        width: 19px;
+        height: 16px;
+        background-color: #34404b;
+      }
+      .Layer{
+        width: 22px;
+        height: 21px;
+      }
+
+      .Share-Ico {
+        width: 19px;
+        height: 17px;
+        background-color: #34404b;
+      }    
+      
+      .Layer-1 {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+      }
+
+      .Product-Img {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+      }
+
+      .Layer-5 {
+        width: 200px;
+        height: 180px;
+        object-fit: contain;
+      }
+      .Layer-3 {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+      }
+      .Layer-4 {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+      }
+
+      .Layer-2 {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+      }
+      
+.brownjacket-Img {
+  width: 89px;
+  height: 80px;
+  float: left;
+  object-fit: contain;
+  overflow:auto
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin:auto;
+}
